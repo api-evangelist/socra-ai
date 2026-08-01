@@ -1,8 +1,12 @@
 aid: socra-ai
 name: Socra AI
-description: 'Socra AI is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: edtech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Socra AI operates Socra Tutor (소크라 튜터), a Korean-market, AI-powered education
+  service that describes itself as an intelligent AI answer-comparison service — students submit
+  problems and Socra compares and evaluates candidate answers using AI to help them learn. It is a
+  consumer-facing edtech mobile/web application rather than a developer platform; as of this profile
+  no public API, developer portal, or technical documentation could be found. Socra AI was surfaced
+  as a portfolio company of SoftBank Vision Fund and added to the API Evangelist network for
+  enrichment tracking.'
 url: https://raw.githubusercontent.com/api-evangelist/socra-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,13 +14,41 @@ x-backed-by:
 - softbank-vision-fund
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Edtech
+- Education
+- Artificial Intelligence
+- Tutoring
+- AI Assistant
+- Korea
+- Consumer
+image: https://socra.ai/favicon.ico
+common:
+- type: DomainSecurity
+  url: security/socra-ai-domain-security.yml
+- type: Website
+  url: https://socra.ai
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
